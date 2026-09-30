@@ -1,19 +1,18 @@
+# data: Kaggle rules, and the files are too big
 data/
 *.csv
 *.zip
 *.parquet
-
-
+# the trained model (made by notebook 05, rebuilt from the data)
+models/
+# environment and secrets
 .venv/
+.env
+# python and editors
 __pycache__/
 *.pyc
 *.egg-info/
-
 .ipynb_checkpoints/
-
-.env
-
-
 .DS_Store
 .vscode/
 .idea/
